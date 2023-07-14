@@ -1,16 +1,53 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <h1>Car Insurance Form</h1>
+
+    <form>
+        <ol>
+            <li>
+                <label for="name" > Name*</label>
+                <input type="text" placeholder="Name">
+            </li>
+            <li>
+                <label for="email" > Email*</label>
+                <input type="email" placeholder="Email@gmail.com">
+            </li>
+            <li>
+                <label for="Gender" > Gender*</label>
+                <label><input type="radio" name="Gender" value="male">Male</label>
+                <label><input type="radio" name="Gender" value="female">Female</label>
+            </li>
+            <li>
+                <label for="carbrands" > Car Brands</label>
+                <select name="Car_Brands" id="cars">
+                   <option value="BMW">BMW</option>
+                   <option value="Audi">Audi</option>
+                   <option value="Mercedez">Mercedez</option>
+                </select>
+            </li>
+            <li>
+                <label for="Car Age*" > Car Age*</label>
+                <input type="number" name="car" id="" min="1" max="15">
+            </li>
+            <li>
+                <label for="Date of Purchase" > Date of Purchase(dop)*</label>
+                <input type="date" name="" id="">            
+            </li>
+            <li>
+                <label for="password" > Password*</label>
+                <input type="password" name="password" id="password">
+            </li>
+        </ol>
+        <input type="submit">
+    </form>
+
+    
 
 </body>
-
 </html>
